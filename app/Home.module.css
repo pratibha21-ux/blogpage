@@ -7,7 +7,7 @@
     font-size: 3rem;
     font-weight: bold;
     text-align: center;
-    color: #000000;
+    color: rgb(88, 88, 88);
 }
 
 .blogSection {
@@ -34,25 +34,25 @@
 .blogTitle {
     font-size: 1rem;
     font-weight: bold;
-    color: #000000;
+    color: rgb(88, 88, 88);
 }
 
 .subTitle {
-    color: #000000;
+    color: rgb(88, 88, 88);
     font-weight: bold;
     margin-bottom: 2%;
     font-size: 2rem;
 }
 
 .desc {
-    color: #000000;
+    color: rgb(88, 88, 88);
     font-size: 1.3rem;
     text-align: justify;
     /* font-weight: bold; */
 }
 
 .description {
-    color: #000000;
+    color: rgb(88, 88, 88);
     margin-left: auto;
     margin-right: auto;
     line-height: 1.8;
