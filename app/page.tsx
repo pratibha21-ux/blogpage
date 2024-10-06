@@ -37,7 +37,7 @@ export default async function Home() {
       <section className={styles.blogSection}>
         <div className={styles.blogList}>
           {blogs.map((blog) => (
-            <Link href={'/blogs/' + blog.slug} passHref key={blog.slug}>
+            <div>
             <h3 className={styles.subTitle}>{blog.meta.title}</h3>
             <div className={styles.blogDate}>
                 <p>{blog.meta.date}</p>
@@ -66,7 +66,8 @@ export default async function Home() {
                   </div>
                 </div>
               </div>
-            </Link>
+            
+            </div>
           ))}
         </div>
       </section>
